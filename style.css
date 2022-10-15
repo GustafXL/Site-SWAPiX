@@ -1,0 +1,395 @@
+
+
+body{
+    margin: 5px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-image: linear-gradient(80deg, #07123f, #0e539d);
+    color: white; 
+}
+
+header {
+    background: #060E2D;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+.img-swapix {
+    height: 45px;
+}
+.into-img {
+    margin-top: 110px;
+}
+
+.open-title {
+    display: contents;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+nav > a:hover {
+    color: #f4dd4d;
+    transition: .9s;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+}
+p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bold {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.img-logo {
+    height: 90px;
+    border-radius: 20px;
+}
+.img-logo:hover {
+    background: #176dc9;
+    box-shadow: 5px 5px 50px black;
+    transition: .9s;
+}    
+
+.img-link:hover {
+    margin-top: 20px;
+    transition: .9s;
+}
+
+.google-play {
+    height: 60px;
+}
+
+.apple {
+    height: 60px;
+    color: whitesmoke;
+}
+
+
+
+
+.text-convert {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    /* border-radius: 20px; */
+    box-shadow: 2px 2px 9px black;
+    padding: 10px;
+    width: auto;
+    margin: auto;
+    background-image: linear-gradient(to right, #0e539d, #07123f);
+    margin-bottom: 60px;
+}
+
+.content-info {
+    width: 500px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    padding: 15px 5px 5px 5px;
+    display: block;
+    text-align: center;
+    background: #182762;
+}
+
+.info-geral {
+    display: block;
+}
+
+.mobile {
+    height: 27rem;
+}
+
+.moedas {
+    height: 1px;
+}
+
+.content-brl {
+    display: block;
+    text-align: center;
+    width: 500px;
+    background: #178cbb;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    padding: 15px 2px 5px 2px;
+    margin-top: 100px;
+}
+
+.cell-tree {
+    height: 27rem;
+    margin-top: 100px;
+}
+
+.real-tether {
+    height: 10px;
+}
+
+.aplication {
+    background-color: #003589;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+    display: flex;
+    margin-top: 100px;
+}
+
+span {
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.img-aplication {
+    margin-top: 30px;
+}
+
+.install {
+    display: block;
+    margin: auto;
+}
+.X-1 {
+    font-size: 40px;
+    margin: 0 10px 0 10px;
+}
+.nota-fiscal {
+    display: block;
+    margin: auto;
+}
+.texto-nota-fiscal {
+    margin: auto;
+}
+
+.fast-pix {
+    display: block;
+    margin: auto;
+}
+
+.fast-pix-text {
+    margin: auto;
+}
+.confirmation {
+    display: block;
+    margin: auto;
+}
+
+
+.confirmation-text {
+    margin: auto;
+}
+
+.faq {
+    width: 845px;
+    margin: auto;
+}
+
+.duvidas {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.duvidas-text {
+    font-size: 55px;
+}
+
+.duvidas-quadro {
+    background: rgb(204, 204, 204);
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.text-faq {
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.duvidas-quadro:hover {
+    background-color: white;
+    padding: 20px;
+    transition: .9s;
+}
+
+.tutorial {
+    background: rgb(204, 204, 204);
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.tutorial:hover {
+    background-color: white;
+    padding: 20px;
+    transition: .9s;
+}
+
+.text-tutorial {
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.content-suporte {
+    background: rgb(204, 204, 204);
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.content-suporte:hover {
+    background-color: white;
+    padding: 20px;
+    transition: .9s;
+}
+
+.suport-text {
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.swapix-mundo {
+    margin-top: 150px;
+}
+
+
+.content-button-swapix {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.content-button-swapix:hover {
+    height: 75px;
+    transition: .9s;
+}
+
+.text-swapix-button {
+    font-size: 50px;
+}
+
+.news {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 200px);
+}
+
+
+.be-in-cripto {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 21px 30px;
+    
+}
+.coin-telegraph {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 1px 15px;
+    
+}
+.seu-credito {
+    background: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 37px 32px;
+    margin: auto;
+}
+.seu-dinheiro {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 31px 82px;
+    margin: auto;
+}
+.info-money {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 31px 82px;
+}
+.exame {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 31px 82px;
+}
+
+.swapix-white {
+    height: 67px;
+}
+
+footer {
+    background: #03114a;
+    margin-top: 100px;
+    display: flex;
+}
+
+.first-foot {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 8px;
+    margin: auto;
+    text-align: center;
+}
+
+.second-foot {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a {
+    color: white;
+}
+
+
+
+.termos {
+    color: white;
+}
+
+
+.doc {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1168px) 
+.cell-tree {
+
+}
